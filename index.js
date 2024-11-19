@@ -14,4 +14,4 @@
 //    document.getElementById("myh1").textContent = `Hallo ${username}`;
 //    window.location.href = `https://sedameinegrosseliebe.com/ilysm`;
 //}
-window.location.href = `https://sedameinegrosseliebe.com/ilysm`;
+window.location.replace(`https://sedameinegrosseliebe.com/ilysm`);
