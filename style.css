@@ -1,4 +1,7 @@
 body{
     font-family: Verdana;
     font-size: 2em;
+    bannerImage{
+        margin: 0;
+    }
 }
