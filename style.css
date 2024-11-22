@@ -1,4 +1,7 @@
 body{
     font-family: Verdana;
     font-size: 2em;
+    MyImg{
+        align-self: right;
+    }
 }
