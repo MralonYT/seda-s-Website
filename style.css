@@ -1,4 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: Verdana;
     font-size: 2em;
+    background-image: url('images/CuteCat.png');
+    background-size: cover;  
+}
+#SedaModel {
+    padding: 0;
+    position: relative;
+    width: 300px;
+    max-width: 25%;
+    max-height: 80%;
+    margin-top: 100px;
+    margin-right: 0%;
+}
+h1 {
+    text-align: center;
+    display: flex;
+    width: 50%;
+}
+
+#Arrow {
+    width: 100px;
+    height: 100px;
+    margin-left: 50%;
+    margin-top: 10%;
+}
+
+#mySubmit {
+    margin: 0 auto;
+    display: block;
+    margin-left: 50%;
+    margin-top: 30%;
+    scale: 1.5;
+}
+
+.BannerTop {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.BannerContent {
+    padding: 16px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.BannerText {
+    flex-grow: 1;
+    line-height: 1.4;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.BannerClose {
+    background: none;
+    border: none;
+    cursor: pointer;
 }
