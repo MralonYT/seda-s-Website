@@ -7,7 +7,7 @@
 body{
     font-family: Verdana;
     font-size: 2em;
-    background-image: url('/Images/CuteCat.jpg');
+    background-image: url('https://raw.githubusercontent.com/MralonYT/seda-s-Website/refs/heads/main/Images/CuteCat.jpg');
     background-size: cover;  
 }
 #SedaModel {
