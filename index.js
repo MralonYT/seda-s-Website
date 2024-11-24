@@ -1,8 +1,10 @@
-let username;
+let password;
 
 document.getElementById("mySubmit").onclick = function(){
-    username = document.getElementById("myText").value;
-    document.getElementById("myh1").textContent = `Hallo ${username}`;
+    password = document.getElementById("myText").value;
+    if(password == 333888){
+        window.location.replace("https://www.sedameinegrosseliebe.com/clue1");
+    }
 }
 
 document.querySelector(".BannerClose").addEventListener("click", function(){
