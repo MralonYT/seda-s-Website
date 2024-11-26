@@ -4,11 +4,14 @@
     box-sizing: border-box;
 }
 
+html {
+    background-image: url('https://raw.githubusercontent.com/MralonYT/seda-s-Website/refs/heads/main/Images/CuteCat.jpg');
+    background-size: cover; 
+}
+
 body{
     font-family: Verdana;
-    font-size: 2em;
-    background-image: url('https://raw.githubusercontent.com/MralonYT/seda-s-Website/refs/heads/main/Images/CuteCat.jpg');
-    background-size: cover;  
+    font-size: 2em; 
 }
 #SedaModel {
     position: relative;
@@ -87,12 +90,4 @@ h1 {
 .Container {
     position: relative;
     text-align: center;
-}
-
-#myP {
-    scale: 0.25;
-    position: absolute;
-    bottom: 42.5%;
-    left: 21.5%;
-    rotate: -45deg;
 }
