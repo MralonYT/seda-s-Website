@@ -6,7 +6,7 @@
 
 html {
     background-image: url('https://raw.githubusercontent.com/MralonYT/seda-s-Website/refs/heads/main/Images/CuteCat.jpg');
-    background-size: cover; 
+    background-size: 100% 100%; 
 }
 
 body{
