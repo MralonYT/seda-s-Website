@@ -9,7 +9,4 @@
 
 //let username;
 
-document.getElementById("myButton").onclick = function(){
-    window.alert(`Seda ist meine große Liebe <3`);
-}
 
