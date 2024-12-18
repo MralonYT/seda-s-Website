@@ -12,5 +12,5 @@ document.querySelector(".BannerClose").addEventListener("click", function(){
 });
 
 document.getElementById("myButton").onclick = function(){
-    window.alert(`Seda ist meine große Liebe <3`);
+    window.alert(`Seda hier gibt es noch nichts zu sehen :(`);
 }
