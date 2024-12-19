@@ -1,12 +1,16 @@
-//console.log(`Hello`);
-//console.log(`I like Pizza`);
+let password;
 
-//window.alert(`This is an alert!`);
-//window.alert(`Seda ist meine große Liebe <3`);
+document.getElementById("mySubmit").onclick = function(){
+    password = document.getElementById("myText").value;
+    if(password == 333888){
+        window.location.replace("https://www.sedameinegrosseliebe.com/clue1");
+    }
+}
 
-//document.getElementById("myH1").textContent = "Hiii my baby";
-//document.getElementById("myP").textContent = "Ich mag Seda";
+document.querySelector(".BannerClose").addEventListener("click", function(){
+    this.closest(".BannerTop").style.display = "none";
+});
 
-//let username;
-
-
+document.getElementById("myButton").onclick = function(){
+    window.alert(`Seda hier gibt es noch nichts zu sehen :(`);
+}
