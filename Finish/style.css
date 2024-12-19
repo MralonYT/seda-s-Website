@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url('https://raw.githubusercontent.com/MralonYT/seda-s-Website/refs/heads/main/Images/CuteCat.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#myP {
+    margin-left: 25%;
+    width: 50%;
+    text-align: center;
+}
+
+#SedaCute {
+    width: 25%;
+    height: 50%;
+    margin-right: 0;
+}
+
+body{
+    font-family: Verdana;
+    font-size: 2em; 
+}
+
+#mybackhurts {
+    position: absolute;
+    width: 5%;
+    left: 47.5%;
+    bottom: 20%;
+    background-color: rgba(10, 47, 169, 0.279);
+    border-radius: 5px;
+}
+
+#mySubmit {
+    display: block;
+    margin-left: 50%;
+    margin-top: 0%;
+    scale: 1.5;
+}
+
+.BannerTop {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#myText {
+    align-items: center;
+    margin-left: 45%;
+    width: 10%;
+    min-width: 100px;
+    scale: 1.5;
+}
+#mySubmit {
+    margin-left: 47.5%;
+    margin-top: 3%;
+    scale: 1.5;
+    border-radius: 5px;
+    padding: 3px;
+    width: 5%;
+    min-width: 50px;
+}
+
+h1 {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
