@@ -11,29 +11,36 @@ html {
     background-position: center center;
 }
 
+#myP {
+    margin-left: 25%;
+    width: 50%;
+    text-align: center;
+}
+
+#SedaCute {
+    width: 25%;
+    height: 50%;
+    margin-right: 0;
+}
+
 body{
     font-family: Verdana;
     font-size: 2em; 
 }
-#SedaModel {
-    position: relative;
-    width: 400px;
-    max-width: 20%;
-    max-height: fit-content;
-    margin-right: 0%;
-}
 
-#Arrow {
-    width: 220px;
-    height: 220px;
-    rotate: -40deg;
+#mybackhurts {
+    position: absolute;
+    width: 5%;
+    left: 47.5%;
+    bottom: 20%;
+    background-color: rgba(10, 47, 169, 0.279);
+    border-radius: 5px;
 }
 
 #mySubmit {
-    margin: 0 auto;
     display: block;
     margin-left: 50%;
-    margin-top: 30%;
+    margin-top: 0%;
     scale: 1.5;
 }
 
@@ -41,36 +48,11 @@ body{
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.BannerContent {
-    padding: 16px;
-    max-width: 1000px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-}
-
-.BannerText {
-    flex-grow: 1;
-    line-height: 1.4;
-    font-family: 'Quicksand', sans-serif;
-}
-
-.BannerClose {
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-
-.BannerClose:hover {
-    color: #f00;
-}
-
 #myText {
     align-items: center;
     margin-left: 45%;
     width: 10%;
     min-width: 100px;
-    margin-top: 5%;
     scale: 1.5;
 }
 #mySubmit {
@@ -87,9 +69,4 @@ h1 {
     text-align: center;
     width: 50%;
     margin-left: 25%;
-}
-
-.Container {
-    position: relative;
-    text-align: center;
 }

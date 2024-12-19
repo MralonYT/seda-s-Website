@@ -2,7 +2,7 @@ let password;
 
 document.getElementById("mySubmit").onclick = function(){
     password = document.getElementById("myText").value;
-    if(password == 333888){
+    if(password == 69420){
         window.location.replace("https://www.sedameinegrosseliebe.com/clue1");
     }
 }
